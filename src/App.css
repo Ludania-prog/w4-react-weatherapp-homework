@@ -24,11 +24,19 @@
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(39, 39, 39);
 }
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+}
 form {
   display: inline-block;
+  text-align: center;
+  margin-left: 65px;
 }
 .search {
-  padding: 10px;
+  padding: 10px 50px;
   border-radius: 4px;
   border: 1px solid;
   color: rgba(161, 161, 161, 0.336);
@@ -38,7 +46,7 @@ form {
   display: inline-block;
   margin: 10px;
   background-color: #0d6efd;
-  padding: 10px;
+  padding: 10px 30px;
   border-radius: 4px;
   border: none;
   color: white;
@@ -95,4 +103,5 @@ strong {
   top: -36px;
   left: -20px;
   margin-top: 20px;
+  opacity: 80%;
 }
