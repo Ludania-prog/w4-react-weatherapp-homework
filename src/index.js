@@ -13,9 +13,9 @@ root.render(
   <React.StrictMode>
     <div className="weather-app">
       <h1>TESTE</h1>
-      <Temperature />
       <Form />
       <City />
+      <Temperature />
       <DayUpdate />
     </div>
   </React.StrictMode>,

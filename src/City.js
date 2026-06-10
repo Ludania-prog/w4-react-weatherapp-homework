@@ -2,8 +2,8 @@ import React from "react";
 
 export default function City() {
   return (
-    <div>
-      <h1>CITY OK</h1>
+    <div className="City">
+      <h1>New York</h1>
     </div>
   );
 }
