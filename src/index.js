@@ -5,6 +5,7 @@ import Form from "./Form";
 import City from "./City";
 import DayUpdate from "./DayUpdate";
 import Temperature from "./Temperature";
+import Footer from "./Footer";
 import reportWebVitals from "./reportWebVitals";
 import "./App.css";
 
@@ -12,11 +13,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="weather-app">
-      <h1>TESTE</h1>
+      <h1>Weather App</h1>
       <Form />
       <City />
-      <Temperature />
       <DayUpdate />
+      <Temperature />
+      <Footer />
     </div>
   </React.StrictMode>,
 );

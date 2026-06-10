@@ -14,8 +14,8 @@
 }
 
 .weather-app {
-  max-width: 600px;
-  margin: 40px auto;
+  max-width: 500px;
+  margin: 60px auto;
   position: relative;
   padding: 20px;
   border: 1px solid;
@@ -50,13 +50,13 @@ form {
 
 .icon {
   font-size: 50px;
-  margin: auto;
+  margin-top: 5px;
 }
 
 .part-2 {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 200px;
+  right: 60px;
   display: block;
 }
 
@@ -74,9 +74,16 @@ strong {
 
 .units {
   opacity: 80%;
+  margin-bottom: 100px;
+  text-decoration: none;
+  color: black;
+}
+.temperature {
+  margin-bottom: 50px;
 }
 
-a {
+.footer a {
+  text-align: center;
   color: #0d6efd;
   text-decoration: none;
   color: rgb(33, 33, 33);
@@ -87,4 +94,5 @@ a {
   line-height: 1;
   top: -36px;
   left: -20px;
+  margin-top: 20px;
 }
