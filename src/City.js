@@ -1,0 +1,9 @@
+import React from "react";
+
+export default function City() {
+  return (
+    <div>
+      <h1>CITY OK</h1>
+    </div>
+  );
+}
